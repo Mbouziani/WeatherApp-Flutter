@@ -4,8 +4,14 @@ import 'package:google_fonts/google_fonts.dart';
 class BottomInfo extends StatelessWidget {
   const BottomInfo({
     Key? key,
+    required this.humidity,
+    required this.windSpee,
+    required this.pop,
   }) : super(key: key);
 
+  final int humidity;
+  final String windSpee;
+  final String pop;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -27,7 +33,7 @@ class BottomInfo extends StatelessWidget {
               ),
               SizedBox(height: 3),
               Text(
-                '8',
+                windSpee,
                 style: GoogleFonts.lato(
                     fontSize: 21,
                     fontWeight: FontWeight.w600,
@@ -55,7 +61,7 @@ class BottomInfo extends StatelessWidget {
               ),
               SizedBox(height: 3),
               Text(
-                '7',
+                pop,
                 style: GoogleFonts.lato(
                     fontSize: 21,
                     fontWeight: FontWeight.w600,
@@ -83,7 +89,7 @@ class BottomInfo extends StatelessWidget {
               ),
               SizedBox(height: 3),
               Text(
-                '82',
+                humidity.toString(),
                 style: GoogleFonts.lato(
                     fontSize: 21,
                     fontWeight: FontWeight.w600,

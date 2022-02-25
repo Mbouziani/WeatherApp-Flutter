@@ -6,16 +6,23 @@ import 'package:weather_app/Widget/BottomInfo_widget.dart';
 import 'package:weather_app/logique/Date_Method.dart';
 import 'package:weather_app/logique/Images_Method.dart';
 
-class BodyInfo extends StatefulWidget {
-  BodyInfo({
+class BodyInfo extends StatelessWidget {
+  const BodyInfo({
     Key? key,
+    required this.id,
+    required this.main,
+    required this.temp,
+    required this.humidity,
+    required this.windSpee,
+    required this.pop,
   }) : super(key: key);
+  final int id;
+  final String main;
+  final String temp;
+  final int humidity;
+  final String windSpee;
+  final String pop;
 
-  @override
-  State<BodyInfo> createState() => _BodyInfoState();
-}
-
-class _BodyInfoState extends State<BodyInfo> {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -51,7 +58,7 @@ class _BodyInfoState extends State<BodyInfo> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("50°C",
+              Text("$temp°C",
                   style: GoogleFonts.lato(
                       fontSize: 110,
                       fontWeight: FontWeight.w200,
@@ -63,7 +70,7 @@ class _BodyInfoState extends State<BodyInfo> {
                     width: 5,
                   ),
                   LottieBuilder.asset(
-                    GetWeatherlottie(idweather, GetStateDay()),
+                    GetWeatherlottie(id, GetStateDay()),
                     height: 50,
                     width: 50,
                   ),
@@ -71,7 +78,7 @@ class _BodyInfoState extends State<BodyInfo> {
                     width: 5,
                   ),
                   Text(
-                    'Clody',
+                    main,
                     style: GoogleFonts.lato(
                       fontSize: 25,
                       fontWeight: FontWeight.w300,
@@ -89,7 +96,7 @@ class _BodyInfoState extends State<BodyInfo> {
               SizedBox(
                 height: 20,
               ),
-              BottomInfo(),
+              BottomInfo(humidity: humidity, pop: pop, windSpee: windSpee),
               SizedBox(
                 height: 40,
               )
