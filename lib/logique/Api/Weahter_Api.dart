@@ -79,29 +79,3 @@ Future<Map<String, dynamic>> fetchAllData() async {
     throw Exception('Impossi akhoya');
   }
 }
-/*
-Future<WeatherAllData> fetchAll() async {
-  final response =
-      await http.get(Uri.parse(_apiBaseURL + _apiparametre + _apikey));
-
-  if (response.statusCode == 200) {
-    print('done');
-
-    return WeatherAllData.fromJson(jsonDecode(response.body));
-  } else {
-    throw Exception('Failed to load album');
-  }
-}
-
-Future<Current> fetchWeather() async {
-  final response = await http.get(Uri.parse(_CompleteUrl));
-
-  if (response.statusCode == 200) {
-    print('done');
-
-    return Current.fromJson(jsonDecode(response.body));
-  } else {
-    throw Exception('Failed to load album');
-  }
-}
-*/

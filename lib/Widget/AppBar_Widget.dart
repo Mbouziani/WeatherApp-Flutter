@@ -16,19 +16,16 @@ class AppBarWidget extends StatelessWidget {
         Text(
           '  . Weather .',
           style: GoogleFonts.lato(
-            fontSize: 25,
+            fontSize: 22,
             fontWeight: FontWeight.w400,
             color: Colors.white,
           ),
         ),
-        InkWell(
-          onTap: () {},
-          child: SvgPicture.asset(
-            'assets/svg/menuright.svg',
-            color: Colors.white,
-            height: 30,
-            width: 30,
-          ),
+        SvgPicture.asset(
+          'assets/svg/menuright.svg',
+          color: Colors.white,
+          height: 25,
+          width: 25,
         ),
       ],
     );

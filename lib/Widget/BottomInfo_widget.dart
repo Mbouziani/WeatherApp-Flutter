@@ -27,7 +27,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 'Wind',
                 style: GoogleFonts.lato(
-                    fontSize: 13,
+                    fontSize: 12,
                     fontWeight: FontWeight.w400,
                     color: Colors.white),
               ),
@@ -35,7 +35,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 windSpee,
                 style: GoogleFonts.lato(
-                    fontSize: 21,
+                    fontSize: 18,
                     fontWeight: FontWeight.w600,
                     color: Colors.white),
               ),
@@ -43,7 +43,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 'km/h',
                 style: GoogleFonts.lato(
-                    fontSize: 16,
+                    fontSize: 14,
                     fontWeight: FontWeight.w400,
                     color: Colors.white),
               ),
@@ -55,7 +55,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 'Rain',
                 style: GoogleFonts.lato(
-                    fontSize: 13,
+                    fontSize: 12,
                     fontWeight: FontWeight.w400,
                     color: Colors.white),
               ),
@@ -63,7 +63,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 pop,
                 style: GoogleFonts.lato(
-                    fontSize: 21,
+                    fontSize: 18,
                     fontWeight: FontWeight.w600,
                     color: Colors.white),
               ),
@@ -71,7 +71,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 '%',
                 style: GoogleFonts.lato(
-                    fontSize: 16,
+                    fontSize: 14,
                     fontWeight: FontWeight.w400,
                     color: Colors.white),
               ),
@@ -83,7 +83,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 'Humidity',
                 style: GoogleFonts.lato(
-                    fontSize: 13,
+                    fontSize: 12,
                     fontWeight: FontWeight.w400,
                     color: Colors.white),
               ),
@@ -91,7 +91,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 humidity.toString(),
                 style: GoogleFonts.lato(
-                    fontSize: 21,
+                    fontSize: 18,
                     fontWeight: FontWeight.w600,
                     color: Colors.white),
               ),
@@ -99,7 +99,7 @@ class BottomInfo extends StatelessWidget {
               Text(
                 '%',
                 style: GoogleFonts.lato(
-                    fontSize: 16,
+                    fontSize: 14,
                     fontWeight: FontWeight.w400,
                     color: Colors.white),
               ),
