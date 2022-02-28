@@ -1,16 +1,6 @@
-# weather_app
+# Weather App Clone Ui with Api
+- ### Preview
+<img src="https://user-images.githubusercontent.com/82768399/156051213-15107b29-f594-493b-8129-5ceaf5e859e9.png" width="900" >
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ### Screens
+<img src="https://user-images.githubusercontent.com/82768399/156049927-6ea281ff-6f4c-43af-bf05-b5349decfbc2.gif" width="280" > <img src="https://user-images.githubusercontent.com/82768399/156050106-a7830167-2554-47a9-b329-1a879c8ad105.gif" width="280" > <img src="https://user-images.githubusercontent.com/82768399/156050216-b16b0274-162f-42c0-9b9e-dc64c4fb3685.gif" width="280" >
